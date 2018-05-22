@@ -1,5 +1,5 @@
 current directory: /Users/namranhussin/src/namran.github.com/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180522-20026-ih2xki.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180522-33826-q26ewl.rb extconf.rb
 creating Makefile
 
 To see why this extension failed to compile, please check the mkmf.log which can be found here:
@@ -21,4 +21,4 @@ ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app
 
 current directory: /Users/namranhussin/src/namran.github.com/vendor/bundle/ruby/2.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20180522-20026-1pobb7w
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20180522-33826-j1zmqx

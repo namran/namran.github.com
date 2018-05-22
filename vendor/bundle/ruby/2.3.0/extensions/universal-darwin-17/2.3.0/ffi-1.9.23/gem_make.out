@@ -1,5 +1,5 @@
 current directory: /Users/namranhussin/src/namran.github.com/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.23/ext/ffi_c
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180522-20026-1r3nqnu.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180522-33826-1iy8iv.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for shlwapi.h... no
@@ -107,7 +107,7 @@ libtool: link: ranlib .libs/libffi_convenience.a
 libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && ln -s "../libffi_convenience.la" "libffi_convenience.la" )
 /bin/sh ./libtool  --tag=CC   --mode=link xcrun clang  -arch x86_64  -Wall -fexceptions -no-undefined -version-info `grep -v '^#' /Users/namranhussin/src/namran.github.com/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.23/ext/ffi_c/libffi/libtool-version`   '-arch' 'x86_64'  -arch x86_64 -o libffi.la -rpath /usr/local/lib src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo  src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffiw64.lo src/x86/win64.lo 
 libtool: link:  xcrun clang -dynamiclib  -o .libs/libffi.7.dylib  src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o    -arch x86_64 -arch x86_64 -arch x86_64   -install_name  /usr/local/lib/libffi.7.dylib -compatibility_version 9 -current_version 9.0 -Wl,-single_module
-ld: warning: ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based framecould not create compact unwind for _ffi_closure_win64_inner: non-standard register 4 being saved in prolog
+ld: warning: ld: warning: could not create compact unwind for _ffi_closure_win64_inner: non-standard register 4 being saved in prologcould not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
 
 libtool: link: (cd ".libs" && rm -f "libffi.dylib" && ln -s "libffi.7.dylib" "libffi.dylib")
 libtool: link: ( cd ".libs" && rm -f "libffi.la" && ln -s "../libffi.la" "libffi.la" )
@@ -266,4 +266,4 @@ ld: warning: could not create compact unwind for _ffi_closure_REGISTER: register
 ld: warning: could not create compact unwind for _ffi_closure_STDCALL: does not use EBP or ESP based frame
 ld: warning: could not create compact unwind for _ffi_closure_raw_SYSV: does not use EBP or ESP based frame
 ld: warning: could not create compact unwind for _ffi_closure_raw_THISCALL: register saved more than once (might be shrink wrap)
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20180522-20026-ktldbj
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20180522-33826-1mecdq4
