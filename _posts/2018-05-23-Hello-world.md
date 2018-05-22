@@ -1,3 +1,10 @@
+---
+layout: default
+title:  "Hello World!"
+date:   2018-05-23 01:29:24 +0800
+categories: blog
+---
+
 Finally managed to get the github to host my personal site.
 
 This become the notes dump with some code extract.
